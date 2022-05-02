@@ -25,7 +25,7 @@ const SignUpForm = () => {
     event.preventDefault();
     const {displayName, email, password, confirmPassword} = formFields;
 
-    if(password != confirmPassword) {
+    if(password !== confirmPassword) {
       alert('Passwords not matching')
       setFormFields({
         ...formFields, 
