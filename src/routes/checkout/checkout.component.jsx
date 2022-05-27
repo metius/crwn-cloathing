@@ -11,7 +11,7 @@ const Checkout = () => {
 
   useEffect(() => {
     setIsCartOpen(false);
-  }, []);
+  }, [setIsCartOpen]);
 
   return (
     <div className="checkout-container">
